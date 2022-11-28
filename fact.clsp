@@ -1,0 +1,4 @@
+(mod (VALUE1 VALUE2)
+     (defmacro sum (A B) (qq (+ (unquote A) (unquote B))))
+     (sum VALUE1 VALUE2)
+     )
